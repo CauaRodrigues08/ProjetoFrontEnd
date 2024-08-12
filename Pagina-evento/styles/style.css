@@ -1,0 +1,30 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body{
+    background-color: #1A1E29;
+    height: 100vh;
+    background-image: url(../assets/images/beautiful-starry-night-sky-seamless.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding: 50px;
+    min-height: 70vh;
+}
+
+#imagens{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:30px;
+}
+
+

@@ -1,0 +1,39 @@
+/* Define o estilo da seção */
+#atracoes {
+    padding: 20px;
+}
+
+/* Cria um contêiner flexível para a lista e a imagem */
+.content-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Estilo da lista */
+.lista {
+    padding: 0; 
+    margin: 0; 
+    width: 35%; 
+}
+
+/* Espaço entre os itens da lista */
+.lista-espaçada {
+    list-style: none;
+    margin: 15px 30px;
+}
+
+/* Estilo do contêiner da imagem */
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 40%; 
+}
+
+/* Define o estilo da imagem */
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+    padding-right: 50%;
+}

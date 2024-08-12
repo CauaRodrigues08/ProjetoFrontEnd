@@ -1,0 +1,59 @@
+/* Estilo da seção de contato */
+#contato {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+}
+
+/* Estilo dos rótulos e campos */
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Evita o redimensionamento da área de texto horizontalmente */
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Estilo das mensagens de erro e sucesso */
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px; /* Espaçamento negativo para ajustar a posição da mensagem de erro */
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #bdbdbd; 
+    color: black; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #f1f2f3; 
+}

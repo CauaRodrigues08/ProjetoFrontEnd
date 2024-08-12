@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chuva de meteoros</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/text.css">
+        <link rel="stylesheet" href="./styles/image-list.css">
+        <link rel="stylesheet" href="./styles/formulario.css">
+        <script src="./scripts/script.js" defer></script>
+
+    </head>
+    <body>
+
+        <!--TOPBAR-->
+        <header class="navbar">
+            <div class="title">Chuva de Meteoros</div>
+            <nav>
+                <ul class="nav-list">
+                    
+                    <li class="nav-item"><a href="#sobre">Sobre</a></li> 
+                    <li class="nav-item"><a href="#atracoes">Atrativos</a></li> 
+                    <li class="nav-item"><a href="#galeria">Galeria</a></li> 
+                    <li class="nav-item"><a href="#faq">FAQ</a></li> 
+                    <li class="nav-item"><a href="#contato"></a>Contato</a></li> 
+                </ul>
+
+            </nav>
+        </header>
+
+        <!--CONTEÚDO-->
+        <section id="sobre">
+            <h1 class="barrage-style3">Sobre</h1>
+            <p><br><span class="barrage-style">Boas-vindas, habitante do planeta Terra!</span> Que tal ver um dos eventos mais fascinantes do universo?<br><span class="barrage-style2">A chuva de meteoros!</span><br>Aprecie as luzes cortarem os céus conforme meteoros passam, aprenda mais sobre estes e sua passagem, se divirta com jogos educativos e aproveite algumas comidas terráqueas e outras mais exóticas (você não negaria um coquetel de poeira estelar, negaria?)! </p>
+
+            <div id="imagens">
+                <img src="./assets/images/meteor-shower.jpg" alt="Uma chuva de meteoros">
+                <img src="./assets/images/bebida-azul-brilhante.jpg" alt="Uma bebida azul brilhante">
+            </div>
+
+            <p style="font-size: 24px; font-weight: bold;">Venha para o evento a partir das dezenove horas (19h00) no Monte da Bela Vista!</p>
+
+        </section>
+        <section id="atracoes">
+            <h1 class="barrage-style3">Atrativos</h1>
+            <p><br>Teremos:</p>
+            <div class="content-container">
+              <ul class="lista">
+                  <li class="lista-espaçada">Comida;</li>
+                  <li class="lista-espaçada">Jogos;</li>
+                  <li class="lista-espaçada">Ótima visão do céu;</li>
+                  <li class="lista-espaçada">Aulas educativas.</li>
+              </ul>
+
+              <div class="image-container">
+                  <img src="./assets/images/barraquinha-comida-cozinhando.avif" alt="Comida em uma barraca de vendas.">
+              </div>
+            </div>
+        </section>
+        <section id="galeria">
+            <h1 class="barrage-style3">Galeria</h1>
+
+            <div class="carousel">
+                <input type="radio" id="slide1" name="carousel" checked>
+                <input type="radio" id="slide2" name="carousel">
+                <input type="radio" id="slide3" name="carousel">
+                <input type="radio" id="slide4" name="carousel">
+                <input type="radio" id="slide5" name="carousel">
+                <input type="radio" id="slide6" name="carousel">
+    
+                <div class="carousel-images">
+                    <div class="carousel-slide">
+                        <img src="./assets/images/barraquinha-comida-cozinhando.avif" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./assets/images/beautiful-shining-stars-night-sky.jpg" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./assets/images/bebida-azul-brilhante.jpg" alt="Imagem 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./assets/images/meteor-shower.jpg" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./assets/images/meteor-shower2.jpg" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="./assets/images/starry-night-sky-background.jpg" alt="Imagem 1">
+                    </div>
+                </div>
+    
+                <div class="carousel-controls">
+                    <label for="slide1" class="carousel-dot"></label>
+                    <label for="slide2" class="carousel-dot"></label>
+                    <label for="slide3" class="carousel-dot"></label>
+                    <label for="slide4" class="carousel-dot"></label>
+                    <label for="slide5" class="carousel-dot"></label>
+                    <label for="slide6" class="carousel-dot"></label>
+                </div>
+            </div>
+
+        </section>
+        <section id="faq">
+            <h1 class="barrage-style3">FAQ</h1>
+
+        </section>
+        <section class="contato">
+            <h1 class="barrage-style3">Contato</h1>
+
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="name-error"></span>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+    
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <span class="error-message" id="message-error"></span>
+    
+                <button type="submit">Enviar</button>
+                <div id="form-success" class="success-message"></div>
+            </form>
+
+        </section>
+
+    </body>
+</html>

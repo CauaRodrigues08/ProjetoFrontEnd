@@ -1,0 +1,65 @@
+/*navbar*/
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/*transição de cor da navbar*/
+.navbar:hover{
+    background-color: #040434;
+}
+
+/*fonte do título do evento*/
+@font-face {
+    font-family: 'Barrage';
+    src: url(../assets/fonts/Barrage-DEMO-BF66b5192f68bb3.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*título do evento*/
+.title{
+    font-family: 'Barrage', sans-serif;
+    font-size: 24px;
+}
+
+/*lista da navbar*/
+.nav-list{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/*items da navbar*/
+.nav-item{
+    margin: 0 15px;
+}
+
+/*links dos items da navbasr(aparência)*/
+.nav-item a{
+   
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/*transição de cor dos links da navbar*/
+.nav-item a:hover{
+    color: #ffcc00;
+    background-color: #040434;
+    border-radius: 4px;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Barrage';
+    src: url(../assets/fonts/Barrage-DEMO-BF66b5192f68bb3.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.barrage-style{
+    font-family: 'Barrage', sans-serif;
+}
+
+.barrage-style2{
+    font-family: 'Barrage', sans-serif;
+    font-size: 32px;
+}
+
+.barrage-style3{
+    font-family: 'Barrage', sans-serif;
+    font-size: 40px;
+}
